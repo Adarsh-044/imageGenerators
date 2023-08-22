@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Form, Alert, Button, Input, Row, Col, Label, FormFeedback, FormGroup } from "reactstrap"
+import { Form, Button, Input, Row, Col, Label } from "reactstrap"
 
 const SearchBar = (props) => {
   const { onSubmit } = props;
@@ -17,7 +17,7 @@ const SearchBar = (props) => {
   return (
     <>
       <Form onSubmit={handleSubmit}>
-        <Row className="row-cols-lg-auto g-2 align-items-center">
+        <Row className="row-cols-lg-auto d-flex justify-content-center g-2 align-items-center">
           <Col className='w-25 m-3'>
             <Label
               className="visually-hidden"
