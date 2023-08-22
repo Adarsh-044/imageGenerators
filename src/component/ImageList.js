@@ -9,7 +9,13 @@ const ImageList = (props) => {
       const { alt_description, urls } = img;
       const { small } = urls;
       return (
-        <div>
+        <div
+          className='rounded img-fluid p-5 icon-link icon-link-hover'
+          style={{
+            border: "3px solid green",
+            margin: "20px",
+          }}
+        >
           <ImageShow key={img.id} alt={alt_description} src={small} />
         </div>
       )
@@ -22,8 +28,6 @@ const ImageList = (props) => {
         width: "100%",
         columns: "2",
         margin: "20px",
-        columnGap:"10px", 
-        rowGap:"20px"
       }}>
       {renderImages}
     </div >
