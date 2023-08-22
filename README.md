@@ -31,7 +31,7 @@ To run the ImageGen Web App locally, make sure you have Node.js and npm installe
 1. Clone the repository:
    ```bash
    git clone git@github.com:Adarsh-044/imageGenerators.git
-   cd imagegen-web-app
+
 
 2. npm install 
 3. npm start
