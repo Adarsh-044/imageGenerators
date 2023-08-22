@@ -4,7 +4,7 @@ const ImageShow = (props) => {
   const { alt, src } = props;
   return (
     <div>
-      <img src={src}></img>
+      <img src={src} alt={alt}></img>
     </div>
   )
 }
